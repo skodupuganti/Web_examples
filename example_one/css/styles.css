@@ -21,16 +21,16 @@ div > div{
 }
 
 h3{
-    position: absolute;
-    top: 0%;
-    right: 0%;
+    position: relative;
+    float:right;
     text-align: center;
     margin:auto;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    border: 1px solid black;
+    border: solid black;
+    border-width: 0 0 1px 1px;
     font-size: 1.25em;
 }
 
@@ -52,20 +52,22 @@ p {
         float: left;
         width: 32.33%;
         margin-bottom: 1%;
-        padding: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
 
     }
     div.col-lg-4{
         height: 170px;
     }
-    
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-6, .col-md-12 {
         float: left;
         margin-bottom: 1%;
-        padding: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
 
     }
     .col-md-6{
