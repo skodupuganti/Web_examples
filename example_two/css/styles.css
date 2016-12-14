@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+nav>div{
+    background-color: gray;
+    border: solid black;
+    border-width: 2px 0;
+}
+#nav-head a h1 {
+    font-size: 1.5em;
+    height:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bolder;
+    color: #000;
+
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: darkblue;
+}
+
+#menu-items{
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+
+#chicken, #beef, #sushi{
+    background-color: gray;
+    color: #0f0f0f;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+section{
+    padding: 0 4px;
+}
+
+
+#main-content>div>div{
+    padding-left:5px;
+    padding-right:5px;
+}
+
+div>a{
+    margin-top: 2px;
+    margin-bottom:2px;
+    font-size: 1.25em;
+    color: darkblue;
+}
